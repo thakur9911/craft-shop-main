@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+#pagination{
+    text-align: center;
+    padding: 0 30px 30px 30px; 
+}
+#pagination a{
+    text-decoration: none;
+    background-color: rgb(75, 78, 79);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.featured-products h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+}
+
+#allimg{
+    border-radius: 10px;
+}
+
+.product h3{
+    font-size: 15px;
+}

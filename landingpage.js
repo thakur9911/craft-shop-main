@@ -1,0 +1,2 @@
+
+home=document.querySelector('.home')

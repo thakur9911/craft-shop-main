@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login_page.css">
+    <link rel="stylesheet" href="../css/landingpage.css">
+    <link rel="stylesheet" href="../css/responsiveHome.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/shop.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <!-- <h1>CRAFTSHOP</h1> -->
+                <img src="../assets/2.jpg">
+            </div>
+            <div class="links">
+                <ul class="nav-links">
+
+                    <a href="../landingpage.html">Home</a>
+
+                    <a href="../subpages/shop.html">Shop</a>
+
+                    <a href="../subpages/blog.html">Blog</a>
+
+                    <a href="../subpages/about.html">About</a>
+
+                    <a href="../subpages/contact.html">Contact</a>
+
+                    <div class="login-btn">
+                        <button href="">Login</button>
+                    </div>
+                </ul>
+            </div>
+            <!-- <div class="links">
+            <ul class="nav-links">
+                HTML !
+                <div class="HSBAC-btn">
+                    <button><a href="../landingpage.html">Home</a></button>
+                    
+                    <button><a href="../subpages/shop.html">Shop</a></button>
+                    
+                    <button><a href="../subpages/blog.html">Blog</a></button>
+                    
+                    <button><a href="../subpages/about.html">About</a></button>
+                    
+                    <button><a href="../subpages/contact.html">Contact</a></button>
+                </div>
+                <div class="login-btn">
+                    <button >Login 
+                    </button>
+                </div>
+            </ul>
+                
+            </div>   -->
+        </div>
+    </header>
+
+    <div class="body-part">
+        <div class="main">
+            <div class="wrapper">
+                <div class="cancel-icon">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+
+
+                <div class="login" id="loginpage">
+                    <div class="tabs">
+                        <h2>Login</h2>
+                    </div>
+                    <div class="input_field">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="text" class="l_inputmail">
+                        <label>Email</label>
+                    </div>
+                    <div class="input_field">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" class="l_inputpwd">
+                        <label>Password</label>
+                    </div>
+                    <div class="forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <div class="btn1">
+                        <button href="#" onclick="login()">Login</button>
+                    </div>
+                    <div class="regi-login">
+                        <p>Don't have an account?<a href="#" class="ragister-link">Register</a></p>
+
+                    </div>
+                </div>
+
+
+                <div class="Ragi">
+                    <div class="tabs">
+                        <h2>Register</h2>
+                    </div>
+                    <div class="input_field">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" class="r_inputname">
+                        <label>Username</label>
+                    </div>
+                    <div class="input_field">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="text" class="r_inputmail">
+                        <label>Email</label>
+                    </div>
+                    <div class="input_field">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" class="r_inputpwd">
+                        <label>Password</label>
+                    </div>
+                    <div class="forgot">
+                        <label><input type="checkbox">I agree to the terms & condition</label>
+
+                    </div>
+                    <div class="btn1">
+                        <button id="#loginpage">Register</button>
+                    </div>
+                    <div class="login-regi">
+                        <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../login_page.js"></script>
+</body>
+
+</html>
